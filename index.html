@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stefan Simić – Full-Stack Developer</title>
+    <title>Stefan Simić – .NET MAUI & Full-Stack Developer</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet"/>
     <style>
       *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -135,29 +135,29 @@
       <div class="nav-right">
         <ul class="nav-links">
           <li><a href="#stack" data-i18n="nav_stack">Stack</a></li>
-          <li><a href="#experience" data-i18n="nav_exp">Erfahrung</a></li>
-          <li><a href="#projects" data-i18n="nav_projects">Projekte</a></li>
-          <li><a href="#contact" data-i18n="nav_contact">Kontakt</a></li>
+          <li><a href="#experience" data-i18n="nav_exp">Experience</a></li>
+          <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
         </ul>
         <div class="lang-switcher">
-          <button class="lang-btn" onclick="setLang('en')">EN</button>
-          <button class="lang-btn active" onclick="setLang('de')">DE</button>
+          <button class="lang-btn active" onclick="setLang('en')">EN</button>
+          <button class="lang-btn" onclick="setLang('de')">DE</button>
         </div>
       </div>
     </nav>
 
     <section class="hero">
       <div class="hero-text">
-        <div class="hero-eyebrow" data-i18n="hero_eyebrow">Verfügbar für Freelance-Arbeit</div>
-        <h1 data-i18n="hero_h1">Full-Stack<br/><em>Entwickler</em><br/>auf Freelance-Basis.</h1>
-        <p class="hero-sub" data-i18n="hero_sub">Full-Stack &amp; Mobile-Entwickler mit 3,5 Jahren Berufserfahrung in der Entwicklung moderner Web- und Cross-Platform-Anwendungen mit React, ASP.NET Core, .NET MAUI und SQL Server. Fließend in Deutsch und Englisch. Verfügbar für Remote-Projekte.</p>
+        <div class="hero-eyebrow" data-i18n="hero_eyebrow">Available for freelance work</div>
+        <h1 data-i18n="hero_h1">Modernising<br/>Legacy Apps<br/>with <em>.NET MAUI</em>.</h1>
+        <p class="hero-sub" data-i18n="hero_sub">I help companies modernise legacy desktop applications into cross-platform solutions using .NET MAUI and Blazor Hybrid — without losing the business logic that took years to build. Fluent in German and English. Available for remote projects.</p>
         <div class="hero-badges">
-          <span class="hero-badge">🇩🇪 Deutsch C1</span>
-          <span class="hero-badge">🇬🇧 English C1</span>
-          <span class="hero-badge" data-i18n="badge_exp">3.5 Jahre Erfahrung</span>
+          <span class="hero-badge" data-i18n="badge_exp">3.5 yrs experience</span>
+          <span class="hero-badge">German C1</span>
+          <span class="hero-badge">English C1</span>
         </div>
         <a href="mailto:stefan@stefansimic.dev" class="hero-cta">
-          <span data-i18n="hero_cta">Kontakt aufnehmen</span>
+          <span data-i18n="hero_cta">Get in touch</span>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
             <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
@@ -171,7 +171,7 @@
 
     <div class="divider-line"><div class="divider-line-inner"></div></div>
     <section class="section-wrap" id="stack">
-      <p class="section-label" data-i18n="stack_label">Technologien</p>
+      <p class="section-label" data-i18n="stack_label">Tech Stack</p>
       <div class="stack-grid">
         <span class="stack-pill"><span class="stack-dot"></span>React</span>
         <span class="stack-pill"><span class="stack-dot"></span>TypeScript</span>
@@ -190,43 +190,60 @@
 
     <div class="divider-line"><div class="divider-line-inner"></div></div>
     <section class="section-wrap" id="experience">
-      <p class="section-label" data-i18n="exp_label">Berufserfahrung</p>
-      <h2 class="section-title" data-i18n="exp_title">Wo ich gearbeitet habe</h2>
+      <p class="section-label" data-i18n="exp_label">Experience</p>
+      <h2 class="section-title" data-i18n="exp_title">Where I've worked</h2>
       <div class="exp-list">
+
         <div class="exp-card">
           <div class="exp-header">
             <div>
-              <div class="exp-role" data-i18n="exp1_role">Full-Stack-Entwickler</div>
-              <div class="exp-company" data-i18n="exp1_company">ADVANT Beiten - München, Deutschland</div>
+              <div class="exp-role" data-i18n="exp0_role">Freelance Full-Stack Developer</div>
+              <div class="exp-company" data-i18n="exp0_company">Self-employed</div>
             </div>
-            <span class="exp-period" data-i18n="exp1_period">Apr. 2023 - Aug. 2025</span>
+            <span class="exp-period" data-i18n="exp0_period">2025 – present</span>
           </div>
           <ul class="exp-bullets">
-            <li data-i18n="exp1_b1">Migration eines Legacy-ERP-Systems (WinForms) auf eine moderne Webanwendung mit React und .NET Core Web API; Entwurf des MSSQL-Datenbankschemas und Entwicklung von REST-APIs.</li>
-            <li data-i18n="exp1_b2">Wartung und Erweiterung des bestehenden WinForms-Systems durch regelmäßige Updates, Fehlerbehebungen und neue Funktionen.</li>
-            <li data-i18n="exp1_b3">Technischer Support für Endnutzer in Zusammenarbeit mit dem Entwicklerteam.</li>
+            <li data-i18n="exp0_b1">Modernisation of legacy WinForms applications to .NET MAUI and Blazor Hybrid for mid-sized companies in the DACH region.</li>
+            <li data-i18n="exp0_b2">Development of cross-platform applications using .NET MAUI and Web APIs with ASP.NET Core and SQL Server.</li>
+            <li data-i18n="exp0_b3">Technical consulting and implementation across various industries.</li>
           </ul>
         </div>
+
         <div class="exp-card">
           <div class="exp-header">
             <div>
-              <div class="exp-role" data-i18n="exp2_role">Softwareentwickler</div>
-              <div class="exp-company" data-i18n="exp2_company">Agenda Informationssysteme - Rosenheim, Deutschland</div>
+              <div class="exp-role" data-i18n="exp1_role">Full-Stack Developer</div>
+              <div class="exp-company" data-i18n="exp1_company">ADVANT Beiten – Munich, Germany</div>
             </div>
-            <span class="exp-period" data-i18n="exp2_period">Mär. 2022 - Mär. 2023</span>
+            <span class="exp-period" data-i18n="exp1_period">Apr 2023 – Aug 2025</span>
           </div>
           <ul class="exp-bullets">
-            <li data-i18n="exp2_b1">Wartung und Weiterentwicklung eines Lohnabrechnungssystems in Delphi; Mitarbeit an internen Tools mit C# und .NET Core.</li>
-            <li data-i18n="exp2_b2">Analyse und Behebung von Systemfehlern, Implementierung neuer Features und Sicherstellung der Systemstabilität.</li>
+            <li data-i18n="exp1_b1">Migrated a legacy ERP system (WinForms) to React and .NET Core Web API; designed the MSSQL database schema and built REST APIs.</li>
+            <li data-i18n="exp1_b2">Maintained and extended the existing WinForms system with regular updates, bug fixes and new features.</li>
           </ul>
         </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-role" data-i18n="exp2_role">Software Developer</div>
+              <div class="exp-company" data-i18n="exp2_company">Agenda Informationssysteme – Rosenheim, Germany</div>
+            </div>
+            <span class="exp-period" data-i18n="exp2_period">Mar 2022 – Mar 2023</span>
+          </div>
+          <ul class="exp-bullets">
+            <li data-i18n="exp2_b1">Maintained and extended a payroll accounting system in Delphi; contributed to internal tools using C# and .NET Core.</li>
+            <li data-i18n="exp2_b2">Analysed and resolved system errors, implemented new features and ensured system stability.</li>
+          </ul>
+        </div>
+
       </div>
     </section>
 
     <div class="divider-line"><div class="divider-line-inner"></div></div>
     <section class="section-wrap" id="projects">
-      <p class="section-label" data-i18n="proj_label">Projekte</p>
-      <h2 class="section-title" data-i18n="proj_title">Ausgewählte Arbeiten</h2>
+      <p class="section-label" data-i18n="proj_label">Projects</p>
+      <h2 class="section-title" data-i18n="proj_title">Selected Work</h2>
       <div class="projects-grid">
         <div class="project-card">
           <div class="project-video" onclick="window.open('https://youtu.be/G1dt_7lxMXc','_blank')">
@@ -240,8 +257,8 @@
           </div>
           <div class="project-body">
             <span class="project-tag" data-i18n="proj1_tag">Full-Stack + Mobile</span>
-            <h3 data-i18n="proj1_title">Transportanwendung</h3>
-            <p data-i18n="proj1_desc">Full-Stack-Transportplattform (ASP.NET Core + React), erweitert um eine Mobile-Version mit .NET MAUI und Blazor Hybrid. Unterstützt Offline-Betrieb, plattformübergreifendes Deployment (iOS/Android/Windows) und eine gemeinsame Web/Mobile-Komponentenarchitektur.</p>
+            <h3 data-i18n="proj1_title">Transport App</h3>
+            <p data-i18n="proj1_desc">Full-stack transport platform (ASP.NET Core + React) extended to mobile via .NET MAUI and Blazor Hybrid. Supports offline usage, cross-platform deployment (iOS/Android/Windows) and a shared web/mobile component architecture.</p>
             <div class="project-chips">
               <span class="project-chip">ASP.NET Core</span>
               <span class="project-chip">React</span>
@@ -264,7 +281,7 @@
           <div class="project-body">
             <span class="project-tag" data-i18n="proj2_tag">Desktop &amp; Web</span>
             <h3 data-i18n="proj2_title">Rent a Car</h3>
-            <p data-i18n="proj2_desc">Fahrzeugvermietungsverwaltungssystem mit Kunden- und Fahrzeugverwaltung, Reservierungen, Abrechnung und Berichtswesen. Entwickelt als C#-Desktop- und Webanwendung.</p>
+            <p data-i18n="proj2_desc">Vehicle rental management system with customer and vehicle management, reservations, billing and reporting. Built as both a C# desktop app and a web application.</p>
             <div class="project-chips">
               <span class="project-chip">C#</span>
               <span class="project-chip">ASP.NET Core</span>
@@ -280,8 +297,8 @@
     <section class="section-wrap" id="contact">
       <div class="contact-box">
         <div>
-          <h2 data-i18n="contact_h2">Lassen Sie uns zusammenarbeiten.</h2>
-          <p data-i18n="contact_sub">Haben Sie ein Projekt? Ich freue mich auf Ihre Nachricht.</p>
+          <h2 data-i18n="contact_h2">Let's work together.</h2>
+          <p data-i18n="contact_sub">Have a project in mind? I'd love to hear about it.</p>
         </div>
         <a href="mailto:stefan@stefansimic.dev" class="contact-btn">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -304,19 +321,24 @@
           nav_projects: "Projects",
           nav_contact: "Contact",
           hero_eyebrow: "Available for freelance work",
-          hero_h1: "Full-Stack<br/><em>Developer</em><br/>for hire.",
-          hero_sub: "Full-Stack &amp; Mobile Developer with 3.5 years of experience building modern web and cross-platform applications with React, ASP.NET Core, .NET MAUI and SQL Server. Fluent in English and German. Available for remote projects.",
+          hero_h1: "Modernising<br/>Legacy Apps<br/>with <em>.NET MAUI</em>.",
+          hero_sub: "I help companies modernise legacy desktop applications into cross-platform solutions using .NET MAUI and Blazor Hybrid - without losing the business logic that took years to build. Fluent in German and English. Available for remote projects.",
           badge_exp: "3.5 yrs experience",
           hero_cta: "Get in touch",
           stack_label: "Tech Stack",
           exp_label: "Experience",
           exp_title: "Where I've worked",
+          exp0_role: "Freelance Full-Stack Developer",
+          exp0_company: "Self-employed",
+          exp0_period: "2025 - present",
+          exp0_b1: "Modernisation of legacy WinForms applications to .NET MAUI and Blazor Hybrid for mid-sized companies in the DACH region.",
+          exp0_b2: "Development of cross-platform applications using .NET MAUI and Web APIs with ASP.NET Core and SQL Server.",
+          exp0_b3: "Technical consulting and implementation across various industries.",
           exp1_role: "Full-Stack Developer",
           exp1_company: "ADVANT Beiten - Munich, Germany",
           exp1_period: "Apr 2023 - Aug 2025",
-          exp1_b1: "Migrated a legacy ERP system (WinForms) to a modern web application using React and .NET Core Web API; designed the MSSQL database schema and built REST APIs.",
+          exp1_b1: "Migrated a legacy ERP system (WinForms) to React and .NET Core Web API; designed the MSSQL database schema and built REST APIs.",
           exp1_b2: "Maintained and extended the existing WinForms system with regular updates, bug fixes and new features.",
-          exp1_b3: "Provided technical end-user support in collaboration with the development team.",
           exp2_role: "Software Developer",
           exp2_company: "Agenda Informationssysteme - Rosenheim, Germany",
           exp2_period: "Mar 2022 - Mar 2023",
@@ -327,7 +349,7 @@
           proj1_tag: "Full-Stack + Mobile",
           proj1_title: "Transport App",
           proj1_desc: "Full-stack transport platform (ASP.NET Core + React) extended to mobile via .NET MAUI and Blazor Hybrid. Supports offline usage, cross-platform deployment (iOS/Android/Windows) and a shared web/mobile component architecture.",
-          proj2_tag: "Desktop &amp; Web",
+          proj2_tag: "Desktop & Web",
           proj2_title: "Rent a Car",
           proj2_desc: "Vehicle rental management system with customer and vehicle management, reservations, billing and reporting. Built as both a C# desktop app and a web application.",
           contact_h2: "Let's work together.",
@@ -339,19 +361,24 @@
           nav_projects: "Projekte",
           nav_contact: "Kontakt",
           hero_eyebrow: "Verfügbar für Freelance-Arbeit",
-          hero_h1: "Full-Stack<br/><em>Entwickler</em><br/>auf Freelance-Basis.",
-          hero_sub: "Full-Stack &amp; Mobile-Entwickler mit 3,5 Jahren Berufserfahrung in der Entwicklung moderner Web- und Cross-Platform-Anwendungen mit React, ASP.NET Core, .NET MAUI und SQL Server. Fließend in Deutsch und Englisch. Verfügbar für Remote-Projekte.",
+          hero_h1: "Legacy-Apps<br/>modernisieren<br/>mit <em>.NET MAUI</em>.",
+          hero_sub: "Ich helfe Unternehmen dabei, Legacy-Desktop-Anwendungen in moderne Cross-Platform-Lösungen mit .NET MAUI und Blazor Hybrid zu überführen - ohne die über Jahre gewachsene Geschäftslogik zu verlieren. Fließend in Deutsch und Englisch. Verfügbar für Remote-Projekte.",
           badge_exp: "3,5 Jahre Erfahrung",
           hero_cta: "Kontakt aufnehmen",
           stack_label: "Technologien",
           exp_label: "Berufserfahrung",
           exp_title: "Wo ich gearbeitet habe",
+          exp0_role: "Freelance Full-Stack-Entwickler",
+          exp0_company: "Selbstständig",
+          exp0_period: "2025 - heute",
+          exp0_b1: "Modernisierung von Legacy-WinForms-Anwendungen auf .NET MAUI und Blazor Hybrid für mittelständische Unternehmen im DACH-Raum.",
+          exp0_b2: "Entwicklung von Cross-Platform-Anwendungen mit .NET MAUI sowie Web-APIs mit ASP.NET Core und SQL Server.",
+          exp0_b3: "Beratung und technische Umsetzung für Kunden aus verschiedenen Branchen.",
           exp1_role: "Full-Stack-Entwickler",
           exp1_company: "ADVANT Beiten - München, Deutschland",
           exp1_period: "Apr. 2023 - Aug. 2025",
-          exp1_b1: "Migration eines Legacy-ERP-Systems (WinForms) auf eine moderne Webanwendung mit React und .NET Core Web API; Entwurf des MSSQL-Datenbankschemas und Entwicklung von REST-APIs.",
+          exp1_b1: "Migration eines Legacy-ERP-Systems (WinForms) auf React und .NET Core Web API; Entwurf des MSSQL-Datenbankschemas und Entwicklung von REST-APIs.",
           exp1_b2: "Wartung und Erweiterung des bestehenden WinForms-Systems durch regelmäßige Updates, Fehlerbehebungen und neue Funktionen.",
-          exp1_b3: "Technischer Support für Endnutzer in Zusammenarbeit mit dem Entwicklerteam.",
           exp2_role: "Softwareentwickler",
           exp2_company: "Agenda Informationssysteme - Rosenheim, Deutschland",
           exp2_period: "Mär. 2022 - Mär. 2023",
@@ -362,7 +389,7 @@
           proj1_tag: "Full-Stack + Mobile",
           proj1_title: "Transportanwendung",
           proj1_desc: "Full-Stack-Transportplattform (ASP.NET Core + React), erweitert um eine Mobile-Version mit .NET MAUI und Blazor Hybrid. Unterstützt Offline-Betrieb, plattformübergreifendes Deployment (iOS/Android/Windows) und eine gemeinsame Web/Mobile-Komponentenarchitektur.",
-          proj2_tag: "Desktop &amp; Web",
+          proj2_tag: "Desktop & Web",
           proj2_title: "Rent a Car",
           proj2_desc: "Fahrzeugvermietungsverwaltungssystem mit Kunden- und Fahrzeugverwaltung, Reservierungen, Abrechnung und Berichtswesen. Entwickelt als C#-Desktop- und Webanwendung.",
           contact_h2: "Lassen Sie uns zusammenarbeiten.",
@@ -382,7 +409,7 @@
         document.documentElement.lang = lang;
       }
 
-      document.addEventListener("DOMContentLoaded", () => setLang("de"));
+      document.addEventListener("DOMContentLoaded", () => setLang("en"));
     </script>
   </body>
 </html>
